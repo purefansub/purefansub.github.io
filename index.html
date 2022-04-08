@@ -30,9 +30,69 @@
     </div>
     <div class="mbody">
         <div class="title">Classroom of the Elite</div>
-        <div class="subtitle">Cil 3. Kısım 2. Part 1</div>
-    </div>
+        <div class="subtitlecontainer">
+            <div class="subtitle">Cilt 3</div>
+            <div class="subtitle">Kısım 2</div>
+            <div class="subtitle">Part 1</div>
+        </div>
+        <div class="ccontainer">
+            <div id="textcontainer" class="textcontainer">
+                Sabah yoklamasından sonra istediğimiz gibi hareket etmekte özgürdük. Hirata sınıftaki güvenilir kişilere
+                bir
+                puan tasarruf stratejisi başlatarak neler yapmaları gerektiği hakkında talimatlar verdi. Diğer tarafta
+                pek
+                yardım etmek istemeyen veya ben ve Horikita gibi bağımsız takılmayı tercih edenler ise kendi
+                faaliyetlerine
+                başladılar.
 
+                "Siz de kimsiniz lan!"
+
+                Birden Ike'nin öfkeli sesi kamp alanında yankılandı. Neler olduğuna bakmak için sesin geldiği tarafa
+                döndüm.
+                Pişmiş kelle gibi sırıtan iki erkek öğrenci orada duruyordu.
+
+                Bir an için acı bir ifade sergileyen Ibuki sanki kendini saklamaya çalışıyormuş gibi çadırın gölgesine
+                doğru
+                adım attı.
+
+                "Komiya ve Kondou?"
+
+                Aniden öksüren Ibuki gibi bu iki kişi bana da tanıdık gelmişti. C sınıfından 2 öğrenciydiler.
+
+                "Ooo, bakıyorum da D sınıfı oldukça tutumlu bir hayat yaşıyor. Gerçekten de kusurlu öğrencilerin
+                sınıfı."
+
+                Ağızlarını patates cipsi ile doldururken, havanın sıcaklığı ile mücadele etmek için içlerinde gazoz
+                olduğunu
+                düşündüğüm pet şişeleri aldılar.
+
+                "Siz C sınıfı sakinlerinin bize göre bayağı konforlu bir hayatı var gibi."
+
+                "Ryuuen'i tanıyor musunuz?"
+
+                "Bir C sınıfı öğrencisi. Hakkında çeşitli söylentiler duydum. Öyle görünüyor ki oldukça pervasız bir
+                adam."
+
+                "Pek öyle değil. O çocuğun yaptığı her şey pis biter."
+
+                Sonra Ibuki sanki kendi düşmanından bahsediyormuş gibi rahatsız olmuş bir şekilde konuştu.
+
+                "Bu ikisi Ryuuen'in çetesinden. Onun emrindeler diyebiliriz."
+
+                Düşünürsek, bu ikisi geçmişte Sudo ile bayağı kavga etmiş tipler. Kazara ortaya çıkmalarındansa
+                Ryuuen'in
+                gölgelerinden arasından onları buraya yollamış olması daha olası.
+
+                "Kahvaltıda ne yediniz? Çimen? yoksa böcek mi? İşte, sizde cipsten alabilirsiniz."
+
+
+            </div>
+        </div>
+    </div>
+    <script>
+        let element = document.getElementById("textcontainer");
+        element.innerHTML = element.innerHTML.split("\n\n").filter(x => x.trim() !== "").map(x => `<p>${x.trim()}</p>`).join(" ")
+    </script>
 </body>
 
 </html>
