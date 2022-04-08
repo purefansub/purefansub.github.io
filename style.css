@@ -163,8 +163,30 @@ a {
     all: unset;
 }
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .mbody {
     background-color: var(--color-raised-bg);
     height: calc(100vh - 159px);
     border-radius: 1rem;
+}
+
+@media only screen and (max-width:500px) {
+    .navbar>a>img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .mbody {
+        height: calc(100vh - 139px);
+        width: 100%;
+        border-radius: 0rem;
+    }
 }
