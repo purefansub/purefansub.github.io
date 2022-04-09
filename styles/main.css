@@ -19,7 +19,7 @@
     --color-brand-active: #55f5ae;
     --color-brand-inverted: #000;
     --tab-underline-hovered: #414146;
-    --color-button-bg: #3e434b;
+    --color-button-bg: #26292e;
     --color-button-text: var(--color-text);
     --color-button-bg-hover: #494f58;
     --color-button-text-hover: #fff;
@@ -54,6 +54,7 @@
     --color-badge-green-bg: #24a54e;
     --color-badge-yellow-text: #dba22d;
     --color-badge-yellow-bg: #f7bb43;
+    --color-yellow-dark: #b78f40;
     --color-block-quote: var(--color-code-bg);
     --color-header-underline: var(--color-tooltip-text);
     --color-hr: var(--color-text);
@@ -163,6 +164,7 @@ body {
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 
@@ -188,18 +190,10 @@ a {
         margin-right: auto;
     }
 
-    .textcontainer {
-        padding: 0 0.725rem !important;
-    }
-
-    .textcontainer>p {
-        font-size: 15px !important;
-    }
-
     .navbar {
         margin: 0;
-        margin-top: 12px;
         margin-bottom: 3px;
+        padding-top: 12px;
         gap: 3px;
         display: grid;
         justify-content: center;
@@ -210,58 +204,4 @@ a {
         width: 100%;
         border-radius: 0rem;
     }
-}
-
-.title {
-    width: fit-content;
-    margin: auto;
-    padding: 13px 15px;
-    font-size: 1.8em;
-    padding-top: 30px;
-    border-bottom: 1px solid var(--color-border);
-    color: var(--color-text-dark);
-    text-align: center;
-}
-
-.subtitle {
-    width: fit-content;
-    border: var(--color-border) solid 1px;
-    border-top: var(--color-raised-bg) solid 1px;
-    margin-top: -1px;
-    color: var(--color-text-inactive);
-    padding: 10px;
-}
-
-.subtitlecontainer {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-}
-
-.title:hover {
-    color: var(--color-text);
-    cursor: pointer;
-}
-
-.subtitle:hover {
-    color: var(--color-text);
-    cursor: pointer;
-}
-
-.textcontainer>p {
-    color: var(--color-text);
-    font-family: 'Poppins', sans-serif;
-    font-size: 16.5px;
-    margin: 1.2rem 0;
-    line-height: 2.15;
-    font-weight: normal;
-}
-
-.textcontainer {
-    padding: 20px 40px;
-}
-
-.ccontainer {
-    max-width: 960px;
-    margin: auto;
 }

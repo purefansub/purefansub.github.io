@@ -1,0 +1,105 @@
+.title {
+    user-select: none;
+    width: fit-content;
+    margin: auto;
+    padding: 13px 15px;
+    font-size: 1.8em;
+    padding-top: 30px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-dark);
+    text-align: center;
+}
+
+.mbody {
+    height: calc(100vh - 159px);
+}
+
+@media only screen and (max-width:500px) {
+    .mbody {
+        height: calc(100vh - 156px);
+    }
+
+    .novel {
+        font-size: 80%;
+    }
+}
+
+.novel>a>img {
+    height: 160px;
+    image-rendering: -webkit-optimize-contrast;
+    padding: 5px;
+    border-radius: 1rem;
+    user-select: none;
+}
+
+.novellist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.novel {
+    margin-top: 30px;
+    display: flex;
+    padding: 5px;
+    background-color: #121316;
+    border-radius: 1rem;
+}
+
+.cokiyi {
+    display: inline-flex;
+    color: var(--color-badge-green-text);
+}
+
+.cokiyi>svg {
+    margin-left: 6px;
+    width: 1.15em;
+    filter: invert(44%) sepia(72%) saturate(436%) hue-rotate(87deg) brightness(101%) contrast(99%);
+}
+
+.noveltitle {
+    color: var(--color-text);
+    padding: 5px;
+    font-size: 1.34em;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.novel>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.novel>div>a {
+    background-color: var(--color-button-bg);
+    border-radius: 1rem;
+    color: var(--color-button-text);
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.status {
+    padding: 5px;
+    color: #929aa3;
+}
+
+.statusred {
+    color: var(--color-badge-red-bg);
+}
+
+.statusyellow {
+    color: var(--color-yellow-dark);
+}
+
+.novel>div>div>span:nth-child(2) {
+    margin-top: 5px;
+}
+
+.novel>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
