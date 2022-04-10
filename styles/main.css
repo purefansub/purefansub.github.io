@@ -146,6 +146,14 @@ body {
     background-color: var(--tab-underline-hovered);
 }
 
+.current:before {
+    background-color: var(--color-brand) !important;
+}
+
+.current {
+    color: var(--color-text);
+}
+
 .navbar>ul>a:hover {
     color: var(--color-text);
 }

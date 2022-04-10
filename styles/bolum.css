@@ -6,6 +6,16 @@
     .textcontainer>p {
         font-size: 15px !important;
     }
+
+
+    .bolum {
+        font-size: 75%;
+        padding: 12px !important;
+    }
+
+    .navigator {
+        padding-bottom: 1.5em !important;
+    }
 }
 
 .title {
@@ -63,4 +73,27 @@
 .ccontainer {
     max-width: 960px;
     margin: auto;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2.5em;
+}
+
+.bolum>svg {
+    width: 10px;
+}
+
+.bolum:hover {
+    background-color: var(--color-link-hover);
+}
+
+.bolum {
+    display: flex;
+    background-color: var(--color-link);
+    padding: 15px;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 5px
 }

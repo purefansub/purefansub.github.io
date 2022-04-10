@@ -24,6 +24,17 @@
     }
 }
 
+.ortalama {
+    display: inline-flex;
+    color: var(--color-badge-yellow-text);
+}
+
+.ortalama>svg {
+    margin-left: 6px;
+    width: 1.15em;
+    filter: invert(95%) sepia(11%) saturate(5725%) hue-rotate(324deg) brightness(101%) contrast(94%);
+}
+
 .novel>a>img {
     height: 160px;
     image-rendering: -webkit-optimize-contrast;
